@@ -6,7 +6,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 const app = express();
 
 // Configuration
-const PORT = process.env.PORT || 8080;
+const PORT =  8080;
 const HOST = "localhost";
 const API_SERVICE_URL = "https://api.radialle.com/api/";
 
