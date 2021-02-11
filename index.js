@@ -46,5 +46,5 @@ app.use('/json/', createProxyMiddleware({
 
 // Start Proxy
 app.listen(() => {
-    console.log(`Starting Proxy at ${HOST}:${PORT}`);
+    console.log(`Starting Proxy `);
 });
