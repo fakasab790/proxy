@@ -13,6 +13,10 @@ const API_SERVICE_URL = "https://api.radialle.com/api/";
 // Logging
 app.use(morgan('dev'));
 
+app.use(express.static(__dirname));
+
+
+
 // Info GET endpoint
 app.get('/info', (req, res, next) => {
     res.send('This is a proxy service which proxies to JSONPlaceholder API.');
